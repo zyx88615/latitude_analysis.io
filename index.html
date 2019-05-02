@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+
+    <div class="navbar">
+        <a id="Latitude" href="index.html"> Latitude </a>
+    <a href="Data.html">Data</a>
+    <a href="Comparison.html">Comparison</a>
+    <div class="dropdown">
+        <button class="dropbtn">Plot 
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="MaxTemp.html">Max Temperature</a>
+        <a href="Humid.html">Humidity</a>
+        <a href="Cloud.html">Cloudiness</a>
+        <a href="Wind.html">Wind Speed</a>
+        </div>
+    </div> 
+    </div>
+
+    <h3><br><br><br><br></h3>
+    <div class="area">
+        <div class="explain">
+            <h1><br> &nbsp&nbsp Summary: Latitude vs. X</h1>
+            <img id="temp0" src="Images/LAT_vs_TEMP.png">
+            <span> </span>
+                <p class="explain1"> <br>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accompoish
+                    this analysis, we first pulled data from the OpenWeatherMap API to assemblea dataset on over 500 cities.
+                    <br><br>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors
+                    we looked at included: tempature, cloudiness, wind speed, and humidity. This site provides the sources data 
+                    and visualization created as part of the analysis, as well as explainations and description of any trends
+                    and correlations witnessed.
+                </p>
+        </div>
+        <div class="fourarea">
+            <br><h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspVisualization</h1>
+            <a href="MaxTEMP.html"><img class="fourimg" src ="Images/LAT_vs_TEMP.png"></a>
+            <a href="Wind.html"><img class="fourimg" src="Images/LAT_vs_WIND.png"></a>
+            <a href="Cloud.html"><img class="fourimg" src="Images/LAT_vs_CLOUD.png"></a>
+            <a href="Humid.html"><img class="fourimg" src="Images/LAT_vs_HUMID.png"></a>
+            
+        </div>
+    </div>
+    <section>
+    <div class="med">
+    <div class="left1">
+        <h1><br> &nbsp&nbsp Summary: Latitude vs. X</h1>
+            <img id="temp1" src="Images/LAT_vs_TEMP.png">
+            <span> </span>
+                <p class="explain2"> <br>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accompoish
+                    this analysis, we first pulled data from the OpenWeatherMap API to assemblea dataset on over 500 cities.
+                    <br><br>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors
+                    we looked at included: tempature, cloudiness, wind speed, and humidity. This site provides the sources data 
+                    and visualization created as part of the analysis, as well as explainations and description of any trends
+                    and correlations witnessed.
+                </p>
+        </div>
+        <div class="right1">
+            <a href="MaxTEMP.html"><img class="fourimg" src ="Images/LAT_vs_TEMP.png"></a>
+            <a href="Wind.html"><img class="fourimg" src="Images/LAT_vs_WIND.png"></a>
+            <a href="Cloud.html"><img class="fourimg" src="Images/LAT_vs_CLOUD.png"></a>
+            <a href="Humid.html"><img class="fourimg" src="Images/LAT_vs_HUMID.png"></a>
+    </div>
+  </div>
+</section>
+    <div class="copy"><h4><br>© CopyRight Neal Zheng</h4></div>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+
+    <div class="navbar">
+        <a id="Latitude" href="index.html"> Latitude </a>
+    <a href="Data.html">Data</a>
+    <a href="Comparison.html">Comparison</a>
+    <div class="dropdown">
+        <button class="dropbtn">Plot 
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="MaxTemp.html">Max Temperature</a>
+        <a href="Humid.html">Humidity</a>
+        <a href="Cloud.html">Cloudiness</a>
+        <a href="Wind.html">Wind Speed</a>
+        </div>
+    </div> 
+    </div>
+
+    <h3><br><br><br><br></h3>
+    <div class="area">
+        <div class="explain">
+            <h1> &nbsp&nbsp Latitude vs. Cloudiness</h1>
+            <img id="temp0" src="Images/LAT_vs_CLOUD.png">
+                <p class="explain1"> <br>Latitude VS Cloudiness, Correlation Matrix<br>
+                [1.00000,      -0.00297]<br>
+                [-0.00297, 1.00000]<br>
+                NO correlation between latitude and cloudiness<br>
+                We are 95% confident that Cloudiness is the at North and South Hemisphere.
+                <br><br>
+                &nbsp&nbsp&nbsp&nbsp Ho: μ1 = μ2   &nbsp&nbsp  VS. &nbsp&nbsp Ha: μ1 &lt μ2   <br>
+                &nbsp&nbsp&nbsp&nbsp (μ1 is the average Cloud at Northern Hemisphere cities)<br>
+                &nbsp&nbsp&nbsp&nbsp (μ2 is the average Cloud at Southern Hemisphere cities)  <br>
+                &nbsp&nbsp&nbsp&nbsp P-value &gt 0.05 fail to reject null hypothese.
+                </p>
+        </div>
+        <div class="fourarea">
+            <br><h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspVisualization</h1>
+            <a href="MaxTEMP.html"><img class="fourimg" src ="Images/LAT_vs_TEMP.png"></a>
+            <a href="Wind.html"><img class="fourimg" src="Images/LAT_vs_WIND.png"></a>
+            <a href="Cloud.html"><img class="fourimg" src="Images/LAT_vs_CLOUD.png"></a>
+            <a href="Humid.html"><img class="fourimg" src="Images/LAT_vs_HUMID.png"></a>
+            
+        </div>
+    </div>
+    <section>
+    <div class="med">
+    <div class="left1">
+        <h1><br> &nbsp&nbsp Latitude vs. Cloudiness</h1>
+            <img id="temp1" src="Images/LAT_vs_CLOUD.png">
+            <span> </span>
+            <p class="explain2"> Latitude VS Cloudiness, Correlation Matrix<br>
+                [1.00000,      -0.00297]<br>
+                [-0.00297, 1.00000]<br>
+                NO correlation between latitude and cloudiness<br>
+                We are 95% confident that Cloudiness is the at North and South Hemisphere.
+                <br><br>
+                &nbsp&nbsp&nbsp&nbsp Ho: μ1 = μ2   &nbsp&nbsp  VS. &nbsp&nbsp Ha: μ1 &lt μ2   <br>
+                &nbsp&nbsp&nbsp&nbsp (μ1 is the average Cloud at Northern Hemisphere cities)<br>
+                &nbsp&nbsp&nbsp&nbsp (μ2 is the average Cloud at Southern Hemisphere cities)  <br>
+                &nbsp&nbsp&nbsp&nbsp P-value &gt 0 fail to reject null hypothese.
+                </p>
+        </div>
+        <div class="right1">
+            <a href="MaxTEMP.html"><img class="fourimg" src ="Images/LAT_vs_TEMP.png"></a>
+            <a href="Wind.html"><img class="fourimg" src="Images/LAT_vs_WIND.png"></a>
+            <a href="Cloud.html"><img class="fourimg" src="Images/LAT_vs_CLOUD.png"></a>
+            <a href="Humid.html"><img class="fourimg" src="Images/LAT_vs_HUMID.png"></a>
+    </div>
+  </div>
+</section>
+    <div class="copy"><h4><br>© CopyRight Neal Zheng</h4></div>
+</body>
+
+</html>
